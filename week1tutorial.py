@@ -247,3 +247,15 @@ for food in friend_foods:
     print(food)
 
 
+#4-13 Buffet
+simpleFoods = ("Chicken", "Bacon", "Cheese", "Egg", "Bread")
+#simpleFoods[0] = "Beef"
+simpleFoods = ("Rice", "Ham", "Chicken", "Bacon", "Cheese")
+for food in simpleFoods:
+    print(food)
+
+#4-14 PEP 8
+#I have read this
+
+#4-15 Code Review
+#I have looked through some of my code and ensured it matches the specification in instructions
