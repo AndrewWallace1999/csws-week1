@@ -223,3 +223,27 @@ for odd_number in odd_numbers[:3]:
     print(odd_number)
 
 #4-11 My Pizzas, Your Pizzas
+friend_pizzas = ["Pepperoni", "Meatball", "Meat Feast", "Cheese"]
+for pizza in pizzas:
+    print(f"I like {pizza.lower()} pizza")
+
+for pizza in friend_pizzas:
+    print(f"My friend likes {pizza.lower()} pizza")
+
+print("I really like pizza!")
+
+#4-12 More Loops
+my_foods = ['pizza', 'falafel', 'carrot cake']
+friend_foods = my_foods[:]
+my_foods.append('cannoli')
+friend_foods.append('ice cream')
+
+print("My favourite foods are:")
+for food in my_foods:
+    print(food)
+
+print("My friends favourite foods are:")
+for food in friend_foods:
+    print(food)
+
+
